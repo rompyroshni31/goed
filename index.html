@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Nbyula Project - By Rompy</title>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.bg-video-wrap{
+  position: absolute;
+  overflow: hidden;
+  width:100%;
+  height:100vh;
+  background:url(./Pexels\ Videos\ 1851768.mp4) no-repeat center center/cover;
+}
+video{
+  min-width:100%;
+  min-height:100vh;
+  z-index:1;
+}
+
+.content{
+  text-align: center;
+  color:#fff;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  margin:auto;
+  z-index:3;
+  width:100%;
+}
+.content .heading{
+  color:#ffffff;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  font-size:4.3em;
+  font-weight: 900;
+  margin:0;
+  
+  letter-spacing: 2px;
+}
+.content .heading span{
+	color:#d6b03f;
+	
+	letter-spacing: 1px;
+}
+.content .heading3{
+  margin:5px 0;
+  letter-spacing:5px;
+  font-weight: 800;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  margin-top: 70px;
+}
+.main-btn{
+  margin:15px 0;
+  padding:15px 50px;
+  margin-right: 10px;
+  background-color:#d6b03f;
+  color:#fff;
+  border:none;
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+  
+      </style>
+     
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+      <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&display=swap" rel="stylesheet">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+</head>
+
+<body>
+      <div class="wrapper">
+		 
+			
+		
+            <div class="hero-section">
+					<div class="bg-video-wrap">
+         <video src="./Pexels Videos 1851768.mp4" width="100%" loop muted autoplay></video>
+         <div class="overlay"></div>
+         <div class="content">
+             <p class="heading">An Adaptive Learning<span style="text-transform: uppercase;font-size: 5rem; margin-top: -10px;"><br>PLATFORM</span></p>
+             <h3 class="heading3">Who are You?</h3>
+             <button type="button" class="main-btn" onclick="location.href='index4.html';" value="TEACHER">Teacher</button>
+             <button type="button" class="main-btn" onclick="location.href='mainstudent.html';" value="TEACHER">Student</button>
+         </div>
+     </div>
+                
+	 
+      <script type="text/javascript">
+           
+
+      </script>
+</body>
+</html>
